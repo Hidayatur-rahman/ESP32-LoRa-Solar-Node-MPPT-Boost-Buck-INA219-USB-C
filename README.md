@@ -16,13 +16,13 @@ A solar-powered ESP32 + LoRa (RFM95W) node board. It charges a single-cell Li-io
 ## PCB
 
 <p align="center">
-  <img src="images/board3.png" width="45%">
-  <img src="images/board2.png" width="45%">
+  <img src="images/board3.jpg" width="45%">
+  <img src="images/board2.jpg" width="45%">
 </p>
 
 <p align="center">
-  <img src="images/board4.png" width="45%">
-  <img src="images/mesh2.png" width="45%">
+  <img src="images/board4.jpg" width="45%">
+  <img src="images/mesh2.jpg" width="45%">
 </p>
 
 ## Features
