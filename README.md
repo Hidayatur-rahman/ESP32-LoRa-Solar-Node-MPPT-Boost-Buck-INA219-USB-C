@@ -167,6 +167,15 @@ Keep the panel's open-circuit voltage (Voc) below the CN3791 input limit (about 
 
 Set the LoRa region in Meshtastic to match your country and the 915 MHz hardware.
 
+## Roadmap
+ 
+**Version 2 (in progress)**
+![PCB 3D view](images/board_v2.png)
+
+- 4-layer PCB
+- GPS module added
+This repository currently contains version 1 (2-layer, no GPS). Version 2 files will be added when the design is ready.
+
 ## License
 
 MIT — feel free to use, modify, and build upon this project.
