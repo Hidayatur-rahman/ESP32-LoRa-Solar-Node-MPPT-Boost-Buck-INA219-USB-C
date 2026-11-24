@@ -51,6 +51,9 @@ Solar panel ──► Q1 (P-MOSFET) ──► CN3791 MPPT ──► INA219 shunt
                                                               STI3408B buck
 ```
 
+> ⚠️ **BATTERY WARNING**  
+> This board has **no BMS** and **no reverse polarity protection** on the battery input. The CN3791 only charges the cell, it does not protect it from over-discharge, over-current or short circuit. Connecting the battery the wrong way round can destroy the board and may cause a fire. **Always use a battery that already has a built-in BMS / protection circuit.**
+
 ## Pin Mapping
 
 | ESP32 Pin | Function |
@@ -163,9 +166,6 @@ Keep the panel's open-circuit voltage (Voc) below the CN3791 input limit (about 
 | I2C SDA / SCL | GPIO21 / GPIO22 |
 
 Set the LoRa region in Meshtastic to match your country and the 915 MHz hardware.
-
-> ⚠️ **BATTERY WARNING**  
-> This board has **no BMS** and **no reverse polarity protection** on the battery input. The CN3791 only charges the cell, it does not protect it from over-discharge, over-current or short circuit. Connecting the battery the wrong way round can destroy the board and may cause a fire. **Always use a battery that already has a built-in BMS / protection circuit.** Use at your own risk.
 
 ## License
 
