@@ -6,6 +6,13 @@ A solar-powered ESP32 + LoRa (RFM95W) node board. It charges a single-cell Li-io
 **Design tool:** KiCad 10  
 **Revision:**  rev 1, 2026-10-13
 
+## 3d View
+
+<p align="center">
+  <img src="images/3d-board-top.png" width="45%">
+  <img src="images/3dboard-bottom.png" width="45%">
+</p>
+
 ## Features
 
 - ESP32-WROOM-32 module
@@ -144,6 +151,9 @@ Keep the panel's open-circuit voltage (Voc) below the CN3791 input limit (about 
 | I2C SDA / SCL | GPIO21 / GPIO22 |
 
 Set the LoRa region in Meshtastic to match your country and the 915 MHz hardware.
+
+> ⚠️ **BATTERY WARNING**  
+> This board has **no BMS** and **no reverse polarity protection** on the battery input. The CN3791 only charges the cell, it does not protect it from over-discharge, over-current or short circuit. Connecting the battery the wrong way round can destroy the board and may cause a fire. **Always use a battery that already has a built-in BMS / protection circuit.** Use at your own risk.
 
 ## License
 
