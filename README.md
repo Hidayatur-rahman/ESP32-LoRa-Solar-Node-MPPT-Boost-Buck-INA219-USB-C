@@ -95,39 +95,7 @@ Each ADC input has a 10 kΩ / 15 kΩ divider, so a 5 V sensor output is scaled t
 - The RFM95W-915S2 covers the 915 MHz band. Check the allowed LoRa frequency in your country before use, and always attach an antenna before transmitting.
 - Upload firmware over USB-C. Auto-reset is handled by the CH340C, so no button presses are needed.
 - INA219 is on the I2C bus together with J2 and J3, so avoid address conflicts with your sensors.
-
-## Example ESPHome Snippet
-
-```yaml
-esp32:
-  board: esp32dev
-
-i2c:
-  sda: GPIO21
-  scl: GPIO22
-
-sensor:
-  - platform: ina219
-    address: 0x40
-    shunt_resistance: 0.01 ohm
-    bus_voltage:
-      name: "Battery Voltage"
-    current:
-      name: "Charge Current"
-    update_interval: 60s
-
-  - platform: adc
-    pin: GPIO32
-    name: "ADC Port 1"
-    attenuation: 12db
-
-spi:
-  clk_pin: GPIO18
-  miso_pin: GPIO19
-  mosi_pin: GPIO23
-```
-
-The INA219 address (0x40) is the default. Check the A0/A1 pins in the schematic if you changed it.
+- The INA219 address (0x40) is the default. Check the A0/A1 pins in the schematic if you changed it.
 
 ## Repository Files
 
