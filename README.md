@@ -170,7 +170,8 @@ Set the LoRa region in Meshtastic to match your country and the 915 MHz hardware
 ## Roadmap
  
 **Version 2 (in progress)**
-![PCB 3D view](images/board_v2.png)
+<p align="center">
+  <img src="images/board_v2.png" width="30%">
 
 - 4-layer PCB
 - GPS module added
