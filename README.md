@@ -13,6 +13,18 @@ A solar-powered ESP32 + LoRa (RFM95W) node board. It charges a single-cell Li-io
   <img src="images/3dboard-bottom.png" width="45%">
 </p>
 
+## PCB
+
+<p align="center">
+  <img src="images/board3.png" width="45%">
+  <img src="images/board2.png" width="45%">
+</p>
+
+<p align="center">
+  <img src="images/board4.png" width="45%">
+  <img src="images/mesh2.png" width="45%">
+</p>
+
 ## Features
 
 - ESP32-WROOM-32 module
