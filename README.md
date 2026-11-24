@@ -1,10 +1,10 @@
-# ESP32 LoRa Solar Node – MPPT, Boost/Buck, INA219, USB-C
+# ESP32 LoRa Solar Node Meshtastic Board
 
 A solar-powered ESP32 + LoRa (RFM95W) node board. It charges a single-cell Li-ion battery from a solar panel with MPPT (CN3791), generates stable 5V and 3.3V rails, monitors battery voltage and current (INA219), and programs over USB-C (CH340C with auto-reset).
 
 **Board:** 2-layer PCB, 75 × 70 mm, 1.6 mm  
 **Design tool:** KiCad 10  
-**Revision:** 3 (schematic title block: rev 1, 2026-10-13)
+**Revision:**  rev 1, 2026-10-13
 
 ## Features
 
@@ -69,8 +69,39 @@ Each ADC input has a 10 kΩ / 15 kΩ divider, so a 5 V sensor output is scaled t
 
 | Ref | Function |
 |---|---|
-| 5V0, 9V1, 12V2, 18V3 | Select the solar panel MPPT voltage. Close only the one that matches your panel. |
+| 5V0, 9V1, 12V2, 18V3 | Select the solar panel MPPT voltage. Close only one. |
 | JP1, JP3, JP4 | Select the supply of ADC port 1, 2 and 3: 5 V or 3.3 V |
+
+### MPPT voltage setting (CN3791)
+
+The CN3791 regulates the solar panel voltage so that the MPPT pin sits at about 1.04 V (typical value from the datasheet; please verify against your datasheet revision). A resistor divider sets the panel voltage:
+
+```
+VCC (panel) ── R18 200k ──┬── MPPT pin
+                          │
+                        R_bottom (selected by jumper)
+                          │
+                         GND
+
+V_panel = 1.04 V × (1 + R18 / R_bottom)
+```
+
+| Jumper | R_bottom | Regulated panel voltage | Suggested panel |
+|---|---|---|---|
+| 5V0 | R27 = 62 kΩ | ≈ 4.4 V | 5–6 V panel |
+| 9V1 | R13 = 33 kΩ | ≈ 7.3 V | 9 V panel |
+| 12V2 | R14 = 24 kΩ | ≈ 9.7 V | 12 V panel |
+| 18V3 | R15 = 15 kΩ | ≈ 14.9 V | 18 V panel |
+
+To use a different panel, choose the bottom resistor from the panel's maximum power voltage (Vmp):
+
+```
+R_bottom = R18 / (Vmp / 1.04 − 1)
+```
+
+Example: Vmp = 17 V → R_bottom = 200k / (17 / 1.04 − 1) ≈ 13 kΩ (use 13 kΩ or the nearest standard value, 12 kΩ or 15 kΩ).
+
+Keep the panel's open-circuit voltage (Voc) below the CN3791 input limit (about 28 V).
 
 ## Main Components
 
@@ -97,14 +128,27 @@ Each ADC input has a 10 kΩ / 15 kΩ divider, so a 5 V sensor output is scaled t
 - INA219 is on the I2C bus together with J2 and J3, so avoid address conflicts with your sensors.
 - The INA219 address (0x40) is the default. Check the A0/A1 pins in the schematic if you changed it.
 
-## Repository Files
+## Firmware
 
-- `esp32-lora-mppt-usbtypec-rev3.kicad_pro` – KiCad project
-- `esp32-lora-mppt-usbtypec-rev3.kicad_sch` – schematic
-- `esp32-lora-mppt-usbtypec-rev3.kicad_pcb` – PCB layout
+- Firmware: Meshtastic custom build
+- Target: `esp32_rfm95_custom`
+- Version: `2.8.3`
+- Revision: `d9c9916`
 
-Open the project with KiCad 10 or newer. Custom symbols and footprints (CN3791, STI3408B) must stay in the project folder.
+| Signal | ESP32 Pin |
+|---|---|
+| SCK / MISO / MOSI | GPIO18 / GPIO19 / GPIO23 |
+| NSS (CS) | GPIO4 |
+| RESET | GPIO14 |
+| DIO0 / DIO1 | GPIO26 / GPIO27 |
+| I2C SDA / SCL | GPIO21 / GPIO22 |
+
+Set the LoRa region in Meshtastic to match your country and the 915 MHz hardware.
 
 ## License
 
-Add your license here (e.g. MIT, CERN-OHL-P).
+MIT — feel free to use, modify, and build upon this project.
+
+## Disclaimer
+
+This is a hobbyist/DIY project. Double-check battery polarity and solar jumper settings before powering on. No warranty is provided — build and use at your own risk.
