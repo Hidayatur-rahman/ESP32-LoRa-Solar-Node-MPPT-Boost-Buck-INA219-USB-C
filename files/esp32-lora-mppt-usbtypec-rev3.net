@@ -1,0 +1,10159 @@
+(export
+	(version "E")
+	(design
+		(source "/home/dayat/Documents/Kicad/esp32-lora-mppt-usbtypec-rev1/esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+		(date "2026-10-13T12:58:07")
+		(tool "Eeschema 10.0.6")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "5V0")
+			(value "SolderJumper_2_Open")
+			(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+			(description "Solder Jumper, 2-pole, open")
+			(fields
+				(field
+					(name "Footprint") "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Solder Jumper, 2-pole, open")
+			)
+			(libsource
+				(lib "Jumper")
+				(part "SolderJumper_2_Open")
+				(description "Solder Jumper, 2-pole, open")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "solder jumper SPST")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SolderJumper*Open*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1dc18a44-e22d-425a-8571-18d734463c1b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "9V1")
+			(value "SolderJumper_2_Open")
+			(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+			(description "Solder Jumper, 2-pole, open")
+			(fields
+				(field
+					(name "Footprint") "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Solder Jumper, 2-pole, open")
+			)
+			(libsource
+				(lib "Jumper")
+				(part "SolderJumper_2_Open")
+				(description "Solder Jumper, 2-pole, open")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "solder jumper SPST")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SolderJumper*Open*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7fe2f980-1f41-4a7d-be3d-df16c63399dc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "12V2")
+			(value "SolderJumper_2_Open")
+			(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+			(description "Solder Jumper, 2-pole, open")
+			(fields
+				(field
+					(name "Footprint") "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Solder Jumper, 2-pole, open")
+			)
+			(libsource
+				(lib "Jumper")
+				(part "SolderJumper_2_Open")
+				(description "Solder Jumper, 2-pole, open")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "solder jumper SPST")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SolderJumper*Open*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "177bc3ac-e04b-4101-84a5-6f6d3c7cf830")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "18V3")
+			(value "SolderJumper_2_Open")
+			(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+			(description "Solder Jumper, 2-pole, open")
+			(fields
+				(field
+					(name "Footprint") "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Solder Jumper, 2-pole, open")
+			)
+			(libsource
+				(lib "Jumper")
+				(part "SolderJumper_2_Open")
+				(description "Solder Jumper, 2-pole, open")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "solder jumper SPST")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SolderJumper*Open*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3b66ed65-9490-4760-afdf-29bc00a1624f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C1")
+			(value "10uf")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a6d8874d-c041-4586-94a1-3e807afa76a2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "10uf")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a25f0725-7fb7-4df3-91c8-fa68088e184c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "100nf")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bacd82cc-e133-4a5a-9d7f-1ac55c777e5d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "22uf")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "30c5bfc8-77d7-4c5e-b82f-5a2cc8e87bbe")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "22uf")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4c58dddc-a589-49fb-be5e-e1a2b8fa7043")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "100nf")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "283f02bf-5b37-4966-ae7d-68e00ef616e7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "100nf")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6ef0eb5b-2a2f-4ae6-ae2f-121a6cd336b2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "100nf")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c162baff-ffa0-44aa-9f93-b8d54a74c3e2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C9")
+			(value "100nf")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bb1b699c-a655-4288-af54-68adf8b9b7e2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C10")
+			(value "10uF")
+			(footprint "Capacitor_SMD:C_1206_3216Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "25f72c0b-f9f1-4785-b9b4-b7bd7c2204a6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C11")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cbfb6f8a-68d1-4b63-a080-2461f183aaac")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C12")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2c0f5bc5-5115-42a7-b809-473db30ebb2f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C13")
+			(value "22uF/35V")
+			(footprint "Capacitor_SMD:CP_Elec_8x6.9")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "KiLib_Generator") "capacitor/SMD/elec_round_polarized")
+				(field
+					(name "Footprint") "Capacitor_SMD:CP_Elec_8x6.9")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "capacitor/SMD/elec_round_polarized")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8a7cef32-5874-480a-a069-0c3c02793660")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C14")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Field5")
+				)
+				(field
+					(name "Field6")
+				)
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Field5")
+				(value "")
+			)
+			(property
+				(name "Field6")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3003d154-4640-4d3a-8dbe-9fc89be14f8d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C15")
+			(value "22uF/16v")
+			(footprint "Capacitor_SMD:CP_Elec_8x6.9")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "KiLib_Generator") "capacitor/SMD/elec_round_polarized")
+				(field
+					(name "Footprint") "Capacitor_SMD:CP_Elec_8x6.9")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "capacitor/SMD/elec_round_polarized")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "211a9871-c019-4259-8d17-a08e64e70259")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C16")
+			(value "220nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "75499625-e0ef-4e9b-933c-3f1da8af3cf0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C17")
+			(value "10uf")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "75c6a91e-7441-470f-b91b-4d0fb15bf9e7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C18")
+			(value "100nf")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cfd2a12b-bc37-4d23-ba3f-2a3634b2069c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C19")
+			(value "10uf")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dee63728-ae59-4d05-8ea3-de5069dc7b73")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C20")
+			(value "100nf")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "381008e2-c8fb-4a79-bfe9-e5f12f3e02f7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C21")
+			(value "100nf")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f5b54db5-b5c9-4b2d-8335-da5cf60047a7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C22")
+			(value "1uf")
+			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "041f5956-ec9f-499c-8941-6ed03130601d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C23")
+			(value "10uf")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6bb868de-b8be-49bd-b841-6ddccc9cabdd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C24")
+			(value "10uf")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cab3fc45-bb33-4256-9e6e-227cb7827792")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C25")
+			(value "10uf")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a4321e61-b5c0-4602-8ee3-bc4ce6ffe6f0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C26")
+			(value "100nf")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8e5fe909-f372-4eea-9485-843694efc76e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C27")
+			(value "100nf")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ba8beaa3-a57e-4821-b968-984dc80935b8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C28")
+			(value "100nf")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1e7b0031-09fd-4b3b-a441-44ea5ec891bb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C29")
+			(value "100nf")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3f5ae84a-68b7-4892-9b27-55361539a0cd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C30")
+			(value "10uf")
+			(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ef0b6ad3-700e-4b8f-8e98-150ae6b5b676")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C31")
+			(value "100nf")
+			(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c0166e57-a5e0-416f-92c4-79710c2f1335")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C32")
+			(value "10uF")
+			(footprint "Capacitor_SMD:C_1206_3216Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "29744e43-a5e6-4a31-b741-d8e778a9d605")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "SS34")
+			(footprint "Diode_SMD:D_SMA")
+			(description "Diode")
+			(fields
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Diode_SMD:D_SMA")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "D")
+				(description "Diode")
+			)
+			(property
+				(name "Sim.Device")
+				(value "D")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d93f645a-ef21-4dfd-872e-85d8ebd507f5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "LED")
+			(footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "25d851a6-1a7a-4f21-b9e2-1d49e4ca305d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D3")
+			(value "LED")
+			(footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8e90b876-badb-4f5b-b82c-0968b48bf402")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D4")
+			(value "SS54")
+			(footprint "Diode_SMD:D_SMA")
+			(description "Schottky diode")
+			(fields
+				(field
+					(name "Footprint") "Diode_SMD:D_SMA")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Schottky diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "D_Schottky")
+				(description "Schottky diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode Schottky")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9ac3ab66-3ae7-4674-a05a-2d8150edbc52")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D6")
+			(value "SS14")
+			(footprint "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+			(description "Schottky diode")
+			(fields
+				(field
+					(name "Footprint") "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Schottky diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "D_Schottky")
+				(description "Schottky diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode Schottky")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "263b34c0-53fa-4ba0-b6ed-f21b9cc2f7a2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "USB C")
+			(footprint "Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A")
+			(datasheet "https://www.usb.org/sites/default/files/documents/usb_type-c.zip")
+			(description "USB 2.0-only 16P Type-C Receptacle connector")
+			(fields
+				(field
+					(name "Footprint") "Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A")
+				(field
+					(name "Datasheet") "https://www.usb.org/sites/default/files/documents/usb_type-c.zip")
+				(field
+					(name "Description") "USB 2.0-only 16P Type-C Receptacle connector")
+			)
+			(libsource
+				(lib "Connector")
+				(part "USB_C_Receptacle_USB2.0_16P")
+				(description "USB 2.0-only 16P Type-C Receptacle connector")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "usb universal serial bus type-C USB2.0")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "USB*C*Receptacle*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a49d8126-7a31-4970-bdeb-5627fdad5d64")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "SH")
+						)
+						(pin
+							(num "B1")
+						)
+						(pin
+							(num "B12")
+						)
+						(pin
+							(num "A1")
+						)
+						(pin
+							(num "A12")
+						)
+						(pin
+							(num "A9")
+						)
+						(pin
+							(num "B4")
+						)
+						(pin
+							(num "B9")
+						)
+						(pin
+							(num "A4")
+						)
+						(pin
+							(num "A5")
+						)
+						(pin
+							(num "B5")
+						)
+						(pin
+							(num "A7")
+						)
+						(pin
+							(num "B7")
+						)
+						(pin
+							(num "A6")
+						)
+						(pin
+							(num "B6")
+						)
+						(pin
+							(num "A8")
+						)
+						(pin
+							(num "B8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "Conn_01x04_Socket")
+			(footprint "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical")
+			(description "Generic connector, single row, 01x04, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x04_Socket")
+				(description "Generic connector, single row, 01x04, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "45adb78f-f9b3-4491-b2fb-5dc2604860ed")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "Conn_01x04_Socket")
+			(footprint "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical")
+			(description "Generic connector, single row, 01x04, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x04_Socket")
+				(description "Generic connector, single row, 01x04, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e2aabd3f-a1ca-4098-a519-0b99898ceff8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J4")
+			(value "Conn_Coaxial_Small")
+			(footprint "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical")
+			(description "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)")
+			(fields
+				(field
+					(name "Footprint") "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_Coaxial_Small")
+				(description "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9fc049c5-c829-4b6f-a138-c137406b83fd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J5")
+			(value "BATTERY")
+			(footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical")
+			(description "Generic connector, single row, 01x02, script generated")
+			(fields
+				(field
+					(name "KiLib_Generator") "connector/JST")
+				(field
+					(name "Footprint") "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x02_Pin")
+				(description "Generic connector, single row, 01x02, script generated")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "connector/JST")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "89f63061-97d8-414b-a995-9fd2a970f05d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J6")
+			(value "SOLAR PANEL")
+			(footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical")
+			(description "Generic connector, single row, 01x02, script generated")
+			(fields
+				(field
+					(name "KiLib_Generator") "connector/JST")
+				(field
+					(name "Footprint") "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x02_Pin")
+				(description "Generic connector, single row, 01x02, script generated")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "connector/JST")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7a116e4a-7494-464d-9fbf-f074d0f84b5e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J7")
+			(value "Conn_01x03_Socket")
+			(footprint "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical")
+			(description "Generic connector, single row, 01x03, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x03_Socket")
+				(description "Generic connector, single row, 01x03, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4805efc2-2c1a-4ec5-a8e2-fe7fcad9fb8c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J8")
+			(value "Conn_01x03_Socket")
+			(footprint "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical")
+			(description "Generic connector, single row, 01x03, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x03_Socket")
+				(description "Generic connector, single row, 01x03, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ca0e0d8f-de57-45d4-acb2-bdfaf52152bf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J9")
+			(value "Conn_01x03_Socket")
+			(footprint "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical")
+			(description "Generic connector, single row, 01x03, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x03_Socket")
+				(description "Generic connector, single row, 01x03, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6d599597-3bd7-48a7-96b2-2639c80f4217")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "JP1")
+			(value "SolderJumper_3_Open")
+			(footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm")
+			(description "Solder Jumper, 3-pole, open")
+			(fields
+				(field
+					(name "Footprint") "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Solder Jumper, 3-pole, open")
+			)
+			(libsource
+				(lib "Jumper")
+				(part "SolderJumper_3_Open")
+				(description "Solder Jumper, 3-pole, open")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Solder Jumper SPDT")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SolderJumper*Open*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "14df663c-94dd-44c0-aa47-53c726f08eb4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "JP3")
+			(value "SolderJumper_3_Open")
+			(footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm")
+			(description "Solder Jumper, 3-pole, open")
+			(fields
+				(field
+					(name "Footprint") "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Solder Jumper, 3-pole, open")
+			)
+			(libsource
+				(lib "Jumper")
+				(part "SolderJumper_3_Open")
+				(description "Solder Jumper, 3-pole, open")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Solder Jumper SPDT")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SolderJumper*Open*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1663f5bc-8fc2-4b0c-a8ae-a59ac722f04f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "JP4")
+			(value "SolderJumper_3_Open")
+			(footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm")
+			(description "Solder Jumper, 3-pole, open")
+			(fields
+				(field
+					(name "Footprint") "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Solder Jumper, 3-pole, open")
+			)
+			(libsource
+				(lib "Jumper")
+				(part "SolderJumper_3_Open")
+				(description "Solder Jumper, 3-pole, open")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Solder Jumper SPDT")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SolderJumper*Open*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "33ccca29-8573-4700-967d-2766c39c7d76")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L1")
+			(value "4.7uH")
+			(footprint "Inductor_SMD:L_Changjiang_FXL0640")
+			(description "Inductor")
+			(fields
+				(field
+					(name "KiLib_Generator") "inductor/SMD")
+				(field
+					(name "Footprint") "Inductor_SMD:L_Changjiang_FXL0640")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Inductor")
+			)
+			(libsource
+				(lib "Device")
+				(part "L")
+				(description "Inductor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "inductor/SMD")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "inductor choke coil reactor magnetic")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Choke_* *Coil* Inductor_* L_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f124e62c-3578-493c-aac8-23e1250c37c3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L2")
+			(value "22uH")
+			(footprint "Inductor_SMD:L_Changjiang_FXL1040")
+			(description "Inductor")
+			(fields
+				(field
+					(name "KiLib_Generator") "inductor/SMD")
+				(field
+					(name "Footprint") "Inductor_SMD:L_Changjiang_FXL1040")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Inductor")
+			)
+			(libsource
+				(lib "Device")
+				(part "L")
+				(description "Inductor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "inductor/SMD")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "inductor choke coil reactor magnetic")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Choke_* *Coil* Inductor_* L_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "37166d76-02bc-4d83-b808-c1166262c0b1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L3")
+			(value "4.7uH")
+			(footprint "Inductor_SMD:L_Changjiang_FXL0640")
+			(description "Inductor")
+			(fields
+				(field
+					(name "Footprint") "Inductor_SMD:L_Changjiang_FXL0640")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Inductor")
+			)
+			(libsource
+				(lib "Device")
+				(part "L")
+				(description "Inductor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "inductor choke coil reactor magnetic")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Choke_* *Coil* Inductor_* L_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "328add17-0c07-457e-9021-09049ed40302")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "AOD4185")
+			(footprint "Package_TO_SOT_SMD:TO-252-2")
+			(description "P-MOSFET transistor, gate/drain/source")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:TO-252-2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "P-MOSFET transistor, gate/drain/source")
+			)
+			(libsource
+				(lib "Transistor_FET")
+				(part "Q_PMOS_GDS")
+				(description "P-MOSFET transistor, gate/drain/source")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "transistor PMOS P-MOS P-MOSFET")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0f1b8e07-d776-4042-a757-845725eb3d9f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q4")
+			(value "BC847")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(datasheet "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657")
+			(description "0.1A Ic, 45V Vce, NPN Transistor, SOT-23")
+			(fields
+				(field
+					(name "Sim.Device") "NPN")
+				(field
+					(name "Sim.Pins") "1=B 2=E 3=C")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657")
+				(field
+					(name "Description") "0.1A Ic, 45V Vce, NPN Transistor, SOT-23")
+			)
+			(libsource
+				(lib "Transistor_BJT")
+				(part "BC847")
+				(description "0.1A Ic, 45V Vce, NPN Transistor, SOT-23")
+			)
+			(property
+				(name "Sim.Device")
+				(value "NPN")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=B 2=E 3=C")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "NPN Small Signal Transistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d6b17884-6361-4203-a0ec-1b5b9884f924")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q5")
+			(value "BC847")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(datasheet "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657")
+			(description "0.1A Ic, 45V Vce, NPN Transistor, SOT-23")
+			(fields
+				(field
+					(name "Sim.Device") "NPN")
+				(field
+					(name "Sim.Pins") "1=B 2=E 3=C")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657")
+				(field
+					(name "Description") "0.1A Ic, 45V Vce, NPN Transistor, SOT-23")
+			)
+			(libsource
+				(lib "Transistor_BJT")
+				(part "BC847")
+				(description "0.1A Ic, 45V Vce, NPN Transistor, SOT-23")
+			)
+			(property
+				(name "Sim.Device")
+				(value "NPN")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=B 2=E 3=C")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "NPN Small Signal Transistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "db64b89b-2001-466b-81d8-c982704de308")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1dc05f3b-9a12-4ec4-889e-eeff69d2ec8c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "10k")
+			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6a3d2aeb-e0cd-40a1-8364-4eede83ca337")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "769f5dca-799f-4535-b084-13a2ef545aab")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "33k")
+			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f81fae06-2a45-40be-9d83-4b2c283ef37b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d1ac0959-367e-4123-89e4-9a3a3af01579")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "180k")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "59584c5b-9b0e-425d-90ec-8f3314e39337")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "24k")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c40df312-745b-4f90-8e8d-50c411b3ad70")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "4.7k")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d9c56448-8fbb-4558-a356-41e2792d38b6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
+			(value "4.7k")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d99f4bd2-bf8f-4265-b2ba-0367bd234d04")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "150k")
+			(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b3362eb7-ae0f-4444-a885-6081557eb67a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "0R")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f930652b-9181-4dda-84a6-1ed4d6ae2811")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
+			(value "4.7K")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ae768328-7350-4817-b272-78bb96c2a59b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R13")
+			(value "33K")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ffbdd98c-83d0-435a-b2d6-9ebd721cd97f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R14")
+			(value "24K")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2f64dd7d-1c22-4bac-ba71-ca3009ec6a3e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R15")
+			(value "15K")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "170d6e6f-3da1-41b0-9a97-c6032ce0c1be")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R16")
+			(value "5.1K")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fedec313-7288-461f-a83d-21d2e7c2fdc5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R17")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c26ff8b9-b80f-4f15-8032-f80a6a1c931d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R18")
+			(value "200K")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b5f7421a-edc0-4e2c-b69f-6a2dba2dfc3d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R19")
+			(value "0.03R")
+			(footprint "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "141e1350-27dd-4dfb-b4aa-30247262da91")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R20")
+			(value "120R")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "410998ca-9f4a-4b94-992c-77b1b1e524c1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R21")
+			(value "5.1K")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6d9723c7-50b1-4344-92f1-728d97ef015b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R23")
+			(value "0R")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e14e058f-71a7-4bf1-9b70-a86d2760dd69")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R24")
+			(value "0R")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c8886519-a7a0-42aa-8e4f-34b28718ce5a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R25")
+			(value "0R")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "eb405c0c-b8d9-4fc3-a511-f7e26fe886a1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R26")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "12250127-9a6e-4a38-9cad-670c10fe15d8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R27")
+			(value "62K")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8e01bd0d-3fe9-4297-be11-43d0751d3cc3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R28")
+			(value "499R")
+			(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fe94620d-a520-4280-87f2-0680154b2b42")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R29")
+			(value "15K")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9244f63f-0ac0-4030-bc33-c3a108d8df00")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R30")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1c175899-b675-4cf4-aed2-a6d253b2278c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R31")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1319be35-b66b-4451-9104-105fd4e9ae73")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R32")
+			(value "15K")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "155300b1-d868-4230-be64-60be1f53934f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R33")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cc20c98e-3ceb-4772-b068-5058b777ca43")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R34")
+			(value "15K")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5628a6b7-5c23-4c92-b26d-361f1e015cd7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RSHUNT1")
+			(value "0.01Ohm")
+			(footprint "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "KiLib_Generator") "SMD_2terminal_chip_molded")
+				(field
+					(name "Footprint") "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "SMD_2terminal_chip_molded")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "eee18a95-6757-4807-896f-5222e965846b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "STI3408B1")
+			(value "~")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "STI3408B")
+				(part "STI3408B")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "23acf1de-45ed-4eee-b134-df52b60d0112")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "RESET")
+			(footprint "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS")
+			(datasheet "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf")
+			(description "Omron B3FS 6x6mm single pole normally-open tactile switch")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS")
+				(field
+					(name "Datasheet") "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf")
+				(field
+					(name "Description") "Omron B3FS 6x6mm single pole normally-open tactile switch")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Omron_B3FS")
+				(description "Omron B3FS 6x6mm single pole normally-open tactile switch")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SW*Omron*B3FS*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9c2bcb3f-5c5d-4dae-9267-012ac53771cb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW2")
+			(value "BOOT")
+			(footprint "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS")
+			(datasheet "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf")
+			(description "Omron B3FS 6x6mm single pole normally-open tactile switch")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS")
+				(field
+					(name "Datasheet") "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf")
+				(field
+					(name "Description") "Omron B3FS 6x6mm single pole normally-open tactile switch")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Omron_B3FS")
+				(description "Omron B3FS 6x6mm single pole normally-open tactile switch")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SW*Omron*B3FS*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a4839376-74fe-4202-bb66-9ff9b95dba29")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP1")
+			(value "3.3V")
+			(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_1.0x1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a99efef0-4aeb-4a51-9866-bc6489cc8709")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP2")
+			(value "5V")
+			(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_1.0x1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b6b2fea8-8ff4-4b3c-b010-412781c41a25")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP3")
+			(value "4.2V")
+			(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
+			(description "test point")
+			(fields
+				(field
+					(name "Footprint") "TestPoint:TestPoint_Pad_1.0x1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2f0506e8-18e1-4ca9-85c8-32ea0a3e0b18")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "ESP32-WROOM-32")
+			(footprint "RF_Module:ESP32-WROOM-32")
+			(datasheet "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf")
+			(description "RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD")
+			(fields
+				(field
+					(name "Footprint") "RF_Module:ESP32-WROOM-32")
+				(field
+					(name "Datasheet") "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf")
+				(field
+					(name "Description") "RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD")
+			)
+			(libsource
+				(lib "RF_Module")
+				(part "ESP32-WROOM-32")
+				(description "RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RF Radio BT ESP ESP32 Espressif onboard PCB antenna")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "ESP32?WROOM?32*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c2af09bb-eaa5-481f-9150-d6384e0e56f0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "RFM95W-915S2")
+			(footprint "RF_Module:HOPERF_RFM9XW_SMD")
+			(datasheet "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf")
+			(description "Low power long range transceiver module, SPI and parallel interface, 915 MHz, spreading factor 6 to12, bandwidth 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16")
+			(fields
+				(field
+					(name "Footprint") "RF_Module:HOPERF_RFM9XW_SMD")
+				(field
+					(name "Datasheet") "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf")
+				(field
+					(name "Description") "Low power long range transceiver module, SPI and parallel interface, 915 MHz, spreading factor 6 to12, bandwidth 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16")
+			)
+			(libsource
+				(lib "RF_Module")
+				(part "RFM95W-915S2")
+				(description "Low power long range transceiver module, SPI and parallel interface, 915 MHz, spreading factor 6 to12, bandwidth 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Low power long range transceiver module")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "HOPERF*RFM9XW*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ad2c47e2-9699-46b2-a2ab-92286a4002cc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "MT3608")
+			(footprint "Package_TO_SOT_SMD:SOT-23-6")
+			(datasheet "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf")
+			(description "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6")
+			(fields
+				(field
+					(name "KiLib_Generator") "package/gullwing")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
+				(field
+					(name "Datasheet") "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf")
+				(field
+					(name "Description") "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6")
+			)
+			(libsource
+				(lib "Regulator_Switching")
+				(part "MT3608")
+				(description "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "package/gullwing")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Step-Up Boost DC-DC Regulator Adjustable")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT*23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7d500c9d-ff63-4c7b-b791-c75a3bdb3b77")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U4")
+			(value "INA219AxD")
+			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+			(datasheet "http://www.ti.com/lit/ds/symlink/ina219.pdf")
+			(description "Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOIC-8")
+			(fields
+				(field
+					(name "KiLib_Generator") "package/gullwing")
+				(field
+					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/ina219.pdf")
+				(field
+					(name "Description") "Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOIC-8")
+			)
+			(libsource
+				(lib "Sensor_Energy")
+				(part "INA219AxD")
+				(description "Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOIC-8")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "package/gullwing")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "ADC I2C 16-Bit Oversampling Current Shunt")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOIC*3.9x4.9mm*P1.27mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "43501fdd-3ec0-4f3d-8da8-f6f2d4b90747")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U5")
+			(value "CN3791")
+			(footprint "CN3791:CN3791_SSOP10")
+			(description "4A, Standalone Li-ion Battery Charger IC\nWith Photovoltaic Cell MPPT Function")
+			(fields
+				(field
+					(name "MF") "Consonance")
+				(field
+					(name "Package") "Package")
+				(field
+					(name "Price") "None")
+				(field
+					(name "SnapEDA_Link") "https://www.snapeda.com/parts/CN3791/Consonance/view-part/?ref=snap")
+				(field
+					(name "MP") "CN3791")
+				(field
+					(name "Availability") "In Stock")
+				(field
+					(name "Check_prices") "https://www.snapeda.com/parts/CN3791/Consonance/view-part/?ref=eda")
+				(field
+					(name "Footprint") "CN3791:CN3791_SSOP10")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "4A, Standalone Li-ion Battery Charger IC\nWith Photovoltaic Cell MPPT Function")
+			)
+			(libsource
+				(lib "CN3791")
+				(part "CN3791")
+				(description "4A, Standalone Li-ion Battery Charger IC\nWith Photovoltaic Cell MPPT Function")
+			)
+			(property
+				(name "MF")
+				(value "Consonance")
+			)
+			(property
+				(name "Package")
+				(value "Package")
+			)
+			(property
+				(name "Price")
+				(value "None")
+			)
+			(property
+				(name "SnapEDA_Link")
+				(value "https://www.snapeda.com/parts/CN3791/Consonance/view-part/?ref=snap")
+			)
+			(property
+				(name "MP")
+				(value "CN3791")
+			)
+			(property
+				(name "Availability")
+				(value "In Stock")
+			)
+			(property
+				(name "Check_prices")
+				(value "https://www.snapeda.com/parts/CN3791/Consonance/view-part/?ref=eda")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ab92c1ac-0428-4245-92ad-69a40710c24f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U6")
+			(value "CH340C")
+			(footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
+			(datasheet "https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf")
+			(description "USB serial converter, crystal-less, UART, SOIC-16")
+			(fields
+				(field
+					(name "Footprint") "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
+				(field
+					(name "Datasheet") "https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf")
+				(field
+					(name "Description") "USB serial converter, crystal-less, UART, SOIC-16")
+			)
+			(libsource
+				(lib "Interface_USB")
+				(part "CH340C")
+				(description "USB serial converter, crystal-less, UART, SOIC-16")
+			)
+			(property
+				(name "Sheetname")
+				(value "esp32-lora-mppt-usbtypec-rev1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "esp32-lora-mppt-usbtypec-rev1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "USB UART Serial Converter Interface")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOIC*3.9x9.9mm*P1.27mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "280c851d-f6c9-4e01-8196-c15ab1a4e279")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "CN3791")
+			(part "CN3791")
+			(description "4A, Standalone Li-ion Battery Charger IC\nWith Photovoltaic Cell MPPT Function")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "CN3791")
+				(field
+					(name "Footprint") "CN3791:SSOP10")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "4A, Standalone Li-ion Battery Charger IC\nWith Photovoltaic Cell MPPT Function")
+				(field
+					(name "MF") "Consonance")
+				(field
+					(name "Package") "Package")
+				(field
+					(name "Price") "None")
+				(field
+					(name "SnapEDA_Link") "https://www.snapeda.com/parts/CN3791/Consonance/view-part/?ref=snap")
+				(field
+					(name "MP") "CN3791")
+				(field
+					(name "Availability") "In Stock")
+				(field
+					(name "Check_prices") "https://www.snapeda.com/parts/CN3791/Consonance/view-part/?ref=eda")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VG")
+					(type "bidirectional")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "~{CHRG}")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "~{DONE}")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "COM")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "MPPT")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "BAT")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "CSP")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "VCC")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "DRV")
+					(type "bidirectional")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x02_Pin")
+			(description "Generic connector, single row, 01x02, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x02_Pin")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x03_Socket")
+			(description "Generic connector, single row, 01x03, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x03_Socket")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x04_Socket")
+			(description "Generic connector, single row, 01x04, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x04_Socket")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Conn_Coaxial_Small")
+			(description "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)")
+			(footprints
+				(fp "*BNC*")
+				(fp "*SMA*")
+				(fp "*SMB*")
+				(fp "*SMC*")
+				(fp "*Cinch*")
+				(fp "*LEMO*")
+				(fp "*UMRF*")
+				(fp "*MCX*")
+				(fp "*U.FL*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_Coaxial_Small")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "In")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Ext")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "TestPoint")
+			(description "test point")
+			(footprints
+				(fp "Pin*")
+				(fp "Test*")
+			)
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "TestPoint")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "USB_C_Receptacle_USB2.0_16P")
+			(description "USB 2.0-only 16P Type-C Receptacle connector")
+			(docs "https://www.usb.org/sites/default/files/documents/usb_type-c.zip")
+			(footprints
+				(fp "USB*C*Receptacle*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "USB_C_Receptacle_USB2.0_16P")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "https://www.usb.org/sites/default/files/documents/usb_type-c.zip")
+				(field
+					(name "Description") "USB 2.0-only 16P Type-C Receptacle connector")
+			)
+			(pins
+				(pin
+					(num "A1")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "A4")
+					(name "VBUS")
+					(type "passive")
+				)
+				(pin
+					(num "A5")
+					(name "CC1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "A6")
+					(name "D+")
+					(type "bidirectional")
+				)
+				(pin
+					(num "A7")
+					(name "D-")
+					(type "bidirectional")
+				)
+				(pin
+					(num "A8")
+					(name "SBU1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "A9")
+					(name "VBUS")
+					(type "passive")
+				)
+				(pin
+					(num "A12")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "B1")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "B4")
+					(name "VBUS")
+					(type "passive")
+				)
+				(pin
+					(num "B5")
+					(name "CC2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "B6")
+					(name "D+")
+					(type "bidirectional")
+				)
+				(pin
+					(num "B7")
+					(name "D-")
+					(type "bidirectional")
+				)
+				(pin
+					(num "B8")
+					(name "SBU2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "B9")
+					(name "VBUS")
+					(type "passive")
+				)
+				(pin
+					(num "B12")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "SH")
+					(name "SHIELD")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C_Polarized")
+			(description "Polarized capacitor")
+			(footprints
+				(fp "CP_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C_Polarized")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "D")
+			(description "Diode")
+			(footprints
+				(fp "TO-???*")
+				(fp "*_Diode_*")
+				(fp "*SingleDiode*")
+				(fp "D_*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "D")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Diode")
+				(field
+					(name "Sim.Device") "D")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "D_Schottky")
+			(description "Schottky diode")
+			(footprints
+				(fp "TO-???*")
+				(fp "*_Diode_*")
+				(fp "*SingleDiode*")
+				(fp "D_*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "D_Schottky")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Schottky diode")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "L")
+			(description "Inductor")
+			(footprints
+				(fp "Choke_*")
+				(fp "*Coil*")
+				(fp "Inductor_*")
+				(fp "L_*")
+			)
+			(fields
+				(field
+					(name "Reference") "L")
+				(field
+					(name "Value") "L")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Inductor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "LED")
+			(description "Light emitting diode")
+			(footprints
+				(fp "LED*")
+				(fp "LED_SMD:*")
+				(fp "LED_THT:*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Interface_USB")
+			(part "CH340C")
+			(description "USB serial converter, crystal-less, UART, SOIC-16")
+			(docs "https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf")
+			(footprints
+				(fp "SOIC*3.9x9.9mm*P1.27mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "CH340C")
+				(field
+					(name "Footprint") "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
+				(field
+					(name "Datasheet") "https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf")
+				(field
+					(name "Description") "USB serial converter, crystal-less, UART, SOIC-16")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "TXD")
+					(type "output")
+				)
+				(pin
+					(num "3")
+					(name "RXD")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "V3")
+					(type "power_out")
+				)
+				(pin
+					(num "5")
+					(name "UD+")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "UD-")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "8")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "9")
+					(name "~{CTS}")
+					(type "input")
+				)
+				(pin
+					(num "10")
+					(name "~{DSR}")
+					(type "input")
+				)
+				(pin
+					(num "11")
+					(name "~{RI}")
+					(type "input")
+				)
+				(pin
+					(num "12")
+					(name "~{DCD}")
+					(type "input")
+				)
+				(pin
+					(num "13")
+					(name "~{DTR}")
+					(type "output")
+				)
+				(pin
+					(num "14")
+					(name "~{RTS}")
+					(type "output")
+				)
+				(pin
+					(num "15")
+					(name "R232")
+					(type "input")
+				)
+				(pin
+					(num "16")
+					(name "VCC")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "Jumper")
+			(part "SolderJumper_2_Open")
+			(description "Solder Jumper, 2-pole, open")
+			(footprints
+				(fp "SolderJumper*Open*")
+			)
+			(fields
+				(field
+					(name "Reference") "JP")
+				(field
+					(name "Value") "SolderJumper_2_Open")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Solder Jumper, 2-pole, open")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "B")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Jumper")
+			(part "SolderJumper_3_Open")
+			(description "Solder Jumper, 3-pole, open")
+			(footprints
+				(fp "SolderJumper*Open*")
+			)
+			(fields
+				(field
+					(name "Reference") "JP")
+				(field
+					(name "Value") "SolderJumper_3_Open")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Solder Jumper, 3-pole, open")
+				(field
+					(name "KLC_S5.1") "This is a generic symbol, it has fp-filter, but no default footprint")
+				(field
+					(name "KLC_S3.3") "Graphical-Symbol: thickness is 6mm, fill is background")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "C")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "B")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RF_Module")
+			(part "ESP32-WROOM-32")
+			(description "RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD")
+			(docs "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf")
+			(footprints
+				(fp "ESP32?WROOM?32*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "ESP32-WROOM-32")
+				(field
+					(name "Footprint") "RF_Module:ESP32-WROOM-32")
+				(field
+					(name "Datasheet") "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf")
+				(field
+					(name "Description") "RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "VDD")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "SENSOR_VP")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "SENSOR_VN")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "IO34")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "IO35")
+					(type "input")
+				)
+				(pin
+					(num "8")
+					(name "IO32")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "IO33")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "IO25")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "IO26")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "IO27")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "IO14")
+					(type "bidirectional")
+				)
+				(pin
+					(num "14")
+					(name "IO12")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "IO13")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "SHD/SD2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "18")
+					(name "SWP/SD3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "19")
+					(name "SCS/CMD")
+					(type "bidirectional")
+				)
+				(pin
+					(num "20")
+					(name "SCK/CLK")
+					(type "bidirectional")
+				)
+				(pin
+					(num "21")
+					(name "SDO/SD0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "22")
+					(name "SDI/SD1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "23")
+					(name "IO15")
+					(type "bidirectional")
+				)
+				(pin
+					(num "24")
+					(name "IO2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "25")
+					(name "IO0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "26")
+					(name "IO4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "27")
+					(name "IO16")
+					(type "bidirectional")
+				)
+				(pin
+					(num "28")
+					(name "IO17")
+					(type "bidirectional")
+				)
+				(pin
+					(num "29")
+					(name "IO5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "30")
+					(name "IO18")
+					(type "bidirectional")
+				)
+				(pin
+					(num "31")
+					(name "IO19")
+					(type "bidirectional")
+				)
+				(pin
+					(num "32")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "33")
+					(name "IO21")
+					(type "bidirectional")
+				)
+				(pin
+					(num "34")
+					(name "RXD0/IO3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "35")
+					(name "TXD0/IO1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "36")
+					(name "IO22")
+					(type "bidirectional")
+				)
+				(pin
+					(num "37")
+					(name "IO23")
+					(type "bidirectional")
+				)
+				(pin
+					(num "38")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "39")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "RF_Module")
+			(part "RFM95W-915S2")
+			(description "Low power long range transceiver module, SPI and parallel interface, 915 MHz, spreading factor 6 to12, bandwidth 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16")
+			(docs "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf")
+			(footprints
+				(fp "HOPERF*RFM9XW*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "RFM95W-915S2")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf")
+				(field
+					(name "Description") "Low power long range transceiver module, SPI and parallel interface, 915 MHz, spreading factor 6 to12, bandwidth 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "MISO")
+					(type "output")
+				)
+				(pin
+					(num "3")
+					(name "MOSI")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "SCK")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "NSS")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "RESET")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "DIO5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "9")
+					(name "ANT")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "11")
+					(name "DIO3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "DIO4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "3.3V")
+					(type "power_in")
+				)
+				(pin
+					(num "14")
+					(name "DIO0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "DIO1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "DIO2")
+					(type "bidirectional")
+				)
+			)
+		)
+		(libpart
+			(lib "Regulator_Switching")
+			(part "MT3608")
+			(description "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6")
+			(docs "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf")
+			(footprints
+				(fp "SOT*23*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "MT3608")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
+				(field
+					(name "Datasheet") "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf")
+				(field
+					(name "Description") "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "SW")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "FB")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "IN")
+					(type "power_in")
+				)
+				(pin
+					(num "6")
+					(name "NC")
+					(type "no_connect")
+				)
+			)
+		)
+		(libpart
+			(lib "STI3408B")
+			(part "STI3408B")
+			(fields
+				(field
+					(name "Reference") "STI3408B")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "LX")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "VIN")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "FB")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "Sensor_Energy")
+			(part "INA219AxD")
+			(description "Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOIC-8")
+			(docs "http://www.ti.com/lit/ds/symlink/ina219.pdf")
+			(footprints
+				(fp "SOIC*3.9x4.9mm*P1.27mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "INA219AxD")
+				(field
+					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/ina219.pdf")
+				(field
+					(name "Description") "Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOIC-8")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A1")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "A0")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "SDA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "SCL")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "VS")
+					(type "power_in")
+				)
+				(pin
+					(num "6")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "7")
+					(name "IN-")
+					(type "input")
+				)
+				(pin
+					(num "8")
+					(name "IN+")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "Switch")
+			(part "SW_Omron_B3FS")
+			(description "Omron B3FS 6x6mm single pole normally-open tactile switch")
+			(docs "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf")
+			(footprints
+				(fp "SW*Omron*B3FS*")
+			)
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_Omron_B3FS")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf")
+				(field
+					(name "Description") "Omron B3FS 6x6mm single pole normally-open tactile switch")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Transistor_BJT")
+			(part "BC847")
+			(description "0.1A Ic, 45V Vce, NPN Transistor, SOT-23")
+			(docs "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657")
+			(footprints
+				(fp "SOT?23*")
+			)
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "BC847")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657")
+				(field
+					(name "Description") "0.1A Ic, 45V Vce, NPN Transistor, SOT-23")
+				(field
+					(name "Sim.Device") "NPN")
+				(field
+					(name "Sim.Pins") "1=B 2=E 3=C")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "B")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "E")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "C")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Transistor_FET")
+			(part "Q_PMOS_GDS")
+			(description "P-MOSFET transistor, gate/drain/source")
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "Q_PMOS_GDS")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "P-MOSFET transistor, gate/drain/source")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "G")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "D")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "S")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "CN3791")
+			(uri "/home/dayat/Downloads/CN3791/CN3791.kicad_sym")
+		)
+		(library
+			(logical "Connector")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Interface_USB")
+			(uri "${KICAD10_SYMBOL_DIR}/Interface_USB.kicad_sym")
+		)
+		(library
+			(logical "Jumper")
+			(uri "${KICAD10_SYMBOL_DIR}/Jumper.kicad_sym")
+		)
+		(library
+			(logical "RF_Module")
+			(uri "${KICAD10_SYMBOL_DIR}/RF_Module.kicad_sym")
+		)
+		(library
+			(logical "Regulator_Switching")
+			(uri "${KICAD10_SYMBOL_DIR}/Regulator_Switching.kicad_sym")
+		)
+		(library
+			(logical "STI3408B")
+			(uri "/home/dayat/Documents/Kicad/Library/STI3408B.kicad_sym")
+		)
+		(library
+			(logical "Sensor_Energy")
+			(uri "${KICAD10_SYMBOL_DIR}/Sensor_Energy.kicad_sym")
+		)
+		(library
+			(logical "Switch")
+			(uri "${KICAD10_SYMBOL_DIR}/Switch.kicad_sym")
+		)
+		(library
+			(logical "Transistor_BJT")
+			(uri "${KICAD10_SYMBOL_DIR}/Transistor_BJT.kicad_sym")
+		)
+		(library
+			(logical "Transistor_FET")
+			(uri "${KICAD10_SYMBOL_DIR}/Transistor_FET.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+3.3V")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C18")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C23")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C27")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C31")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP1")
+				(pin "3")
+				(pinfunction "B_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP3")
+				(pin "3")
+				(pinfunction "B_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP4")
+				(pin "3")
+				(pinfunction "B_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R24")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R25")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "VDD_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "5")
+				(pinfunction "VS_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "16")
+				(pinfunction "VCC_16")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "4")
+				(pinfunction "V3_4")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "2")
+			(name "/<NO NET>")
+			(class "Default")
+			(node
+				(ref "C17")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C26")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D6")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "A4")
+				(pinfunction "VBUS_A4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "A9")
+				(pinfunction "VBUS_A9")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "B4")
+				(pinfunction "VBUS_B4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "B9")
+				(pinfunction "VBUS_B9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "/A5")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "A5")
+				(pinfunction "CC1_A5")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R21")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/ANT")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "1")
+				(pinfunction "In_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "9")
+				(pinfunction "ANT_9")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "5")
+			(name "/B5")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "B5")
+				(pinfunction "CC2_B5")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R16")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/BATT+")
+			(class "Default")
+			(node
+				(ref "J5")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "RSHUNT1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "8")
+				(pinfunction "IN+_8")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "7")
+			(name "/CH340C_D+")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "A6")
+				(pinfunction "D+_A6")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J1")
+				(pin "B6")
+				(pinfunction "D+_B6")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U6")
+				(pin "5")
+				(pinfunction "UD+_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "8")
+			(name "/CH340C_D-")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "A7")
+				(pinfunction "D-_A7")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J1")
+				(pin "B7")
+				(pinfunction "D-_B7")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U6")
+				(pin "6")
+				(pinfunction "UD-_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "9")
+			(name "/CHRG")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "3")
+				(pinfunction "~{CHRG}_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "10")
+			(name "/COM")
+			(class "Default")
+			(node
+				(ref "R20")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "5")
+				(pinfunction "COM_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "11")
+			(name "/CSP")
+			(class "Default")
+			(node
+				(ref "L2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R19")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "8")
+				(pinfunction "CSP_8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "12")
+			(name "/DONE")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "4")
+				(pinfunction "~{DONE}_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "13")
+			(name "/DTR")
+			(class "Default")
+			(node
+				(ref "Q4")
+				(pin "2")
+				(pinfunction "E_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R26")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "13")
+				(pinfunction "~{DTR}_13")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "14")
+			(name "/EN")
+			(class "Default")
+			(node
+				(ref "C22")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q5")
+				(pin "3")
+				(pinfunction "C_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "EN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "15")
+			(name "/FB")
+			(class "Default")
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "FB_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "16")
+			(name "/GPIO0")
+			(class "Default")
+			(node
+				(ref "Q4")
+				(pin "3")
+				(pinfunction "C_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "25")
+				(pinfunction "IO0_25")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "17")
+			(name "/GPIO2")
+			(class "Default")
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "24")
+				(pinfunction "IO2_24")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "18")
+			(name "/GPIO4")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "26")
+				(pinfunction "IO4_26")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "NSS_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "19")
+			(name "/GPIO14")
+			(class "Default")
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "IO14_13")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "RESET_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "20")
+			(name "/GPIO18")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "30")
+				(pinfunction "IO18_30")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "SCK_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "21")
+			(name "/GPIO19")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "31")
+				(pinfunction "IO19_31")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "MISO_2")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "22")
+			(name "/GPIO21{slash}SDA")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "33")
+				(pinfunction "IO21_33")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U4")
+				(pin "3")
+				(pinfunction "SDA_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "23")
+			(name "/GPIO22{slash}SCL")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "36")
+				(pinfunction "IO22_36")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U4")
+				(pin "4")
+				(pinfunction "SCL_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "24")
+			(name "/GPIO23")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "37")
+				(pinfunction "IO23_37")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "MOSI_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "25")
+			(name "/GPIO25")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "IO25_10")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "26")
+			(name "/GPIO26")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "IO26_11")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "14")
+				(pinfunction "DIO0_14")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "27")
+			(name "/GPIO27")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "IO27_12")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "15")
+				(pinfunction "DIO1_15")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "28")
+			(name "/GPIO32")
+			(class "Default")
+			(node
+				(ref "R29")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R30")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "IO32_8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "29")
+			(name "/GPIO33")
+			(class "Default")
+			(node
+				(ref "R31")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R32")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "IO33_9")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "30")
+			(name "/GPIO34")
+			(class "Default")
+			(node
+				(ref "R33")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R34")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "IO34_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "31")
+			(name "/Gate")
+			(class "Default")
+			(node
+				(ref "Q1")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U5")
+				(pin "10")
+				(pinfunction "DRV_10")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "32")
+			(name "/INPUT_BOOST")
+			(class "Default")
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "4")
+				(pinfunction "EN_4")
+				(pintype "input")
+			)
+			(node
+				(ref "U3")
+				(pin "5")
+				(pinfunction "IN_5")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "33")
+			(name "/INPUT_BUCK")
+			(class "Default")
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C20")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D6")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R23")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "STI3408B1")
+				(pin "1")
+				(pinfunction "EN_1")
+				(pintype "input")
+			)
+			(node
+				(ref "STI3408B1")
+				(pin "4")
+				(pinfunction "VIN_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "34")
+			(name "/INPUT_LORA")
+			(class "Default")
+			(node
+				(ref "C24")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C25")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R25")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "13")
+				(pinfunction "3.3V_13")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "35")
+			(name "/JGPIO32")
+			(class "Default")
+			(node
+				(ref "J7")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R30")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "36")
+			(name "/JGPIO33")
+			(class "Default")
+			(node
+				(ref "J8")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R31")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "37")
+			(name "/JGPIO34")
+			(class "Default")
+			(node
+				(ref "J9")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R33")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "38")
+			(name "/JTX")
+			(class "Default")
+			(node
+				(ref "R28")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "3")
+				(pinfunction "RXD_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "39")
+			(name "/MPPT")
+			(class "Default")
+			(node
+				(ref "12V2")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "18V3")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "5V0")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "9V1")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R18")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "6")
+				(pinfunction "MPPT_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "40")
+			(name "/OUTPUT_BOOST_5V")
+			(class "Default")
+			(node
+				(ref "C28")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C29")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP3")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP4")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R23")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "41")
+			(name "/OUTPUT_BUCK")
+			(class "Default")
+			(node
+				(ref "C19")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C21")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C30")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R24")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "42")
+			(name "/OUTPUT_MPPT")
+			(class "Default")
+			(node
+				(ref "C14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C32")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R19")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "RSHUNT1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "7")
+				(pinfunction "IN-_7")
+				(pintype "input")
+			)
+			(node
+				(ref "U5")
+				(pin "7")
+				(pinfunction "BAT_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "43")
+			(name "/RTS")
+			(class "Default")
+			(node
+				(ref "Q5")
+				(pin "2")
+				(pinfunction "E_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "14")
+				(pinfunction "~{RTS}_14")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "44")
+			(name "/RX")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "34")
+				(pinfunction "RXD0/IO3_34")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U6")
+				(pin "2")
+				(pinfunction "TXD_2")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "45")
+			(name "/SW")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "SW_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "46")
+			(name "/TX")
+			(class "Default")
+			(node
+				(ref "R28")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "35")
+				(pinfunction "TXD0/IO1_35")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "47")
+			(name "/VG")
+			(class "Default")
+			(node
+				(ref "C12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "1")
+				(pinfunction "VG_1")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "48")
+			(name "/VINPUT_SENSOR1")
+			(class "Default")
+			(node
+				(ref "J7")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP1")
+				(pin "2")
+				(pinfunction "C_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "49")
+			(name "/VINPUT_SENSOR2")
+			(class "Default")
+			(node
+				(ref "J8")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP3")
+				(pin "2")
+				(pinfunction "C_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "50")
+			(name "/VINPUT_SENSOR3")
+			(class "Default")
+			(node
+				(ref "J9")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP4")
+				(pin "2")
+				(pinfunction "C_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "51")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C19")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C20")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C21")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C22")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C23")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C24")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C25")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C26")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C27")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C28")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C29")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C30")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C31")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C32")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D4")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "A1")
+				(pinfunction "GND_A1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "A12")
+				(pinfunction "GND_A12")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "B1")
+				(pinfunction "GND_B1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "B12")
+				(pinfunction "GND_B12")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "SH")
+				(pinfunction "SHIELD_SH")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "2")
+				(pinfunction "Ext_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J6")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J8")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J9")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R21")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R27")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R29")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R32")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R34")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "STI3408B1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "input")
+			)
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "GND_15")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "38")
+				(pinfunction "GND_38")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "39")
+				(pinfunction "GND_39")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "10")
+				(pinfunction "GND_10")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "8")
+				(pinfunction "GND_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "1")
+				(pinfunction "A1_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U4")
+				(pin "2")
+				(pinfunction "A0_2")
+				(pintype "input")
+			)
+			(node
+				(ref "U4")
+				(pin "6")
+				(pinfunction "GND_6")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U5")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U6")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "52")
+			(name "Net-(5V0-A)")
+			(class "Default")
+			(node
+				(ref "5V0")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R27")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "53")
+			(name "Net-(9V1-A)")
+			(class "Default")
+			(node
+				(ref "9V1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "54")
+			(name "Net-(12V2-B)")
+			(class "Default")
+			(node
+				(ref "12V2")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "55")
+			(name "Net-(18V3-A)")
+			(class "Default")
+			(node
+				(ref "18V3")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "56")
+			(name "Net-(C16-Pad1)")
+			(class "Default")
+			(node
+				(ref "C16")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R20")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "57")
+			(name "Net-(D2-A)")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D3")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "58")
+			(name "Net-(D4-K)")
+			(class "Default")
+			(node
+				(ref "D4")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "2")
+				(pinfunction "D_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "59")
+			(name "Net-(Q4-B)")
+			(class "Default")
+			(node
+				(ref "Q4")
+				(pin "1")
+				(pinfunction "B_1")
+				(pintype "input")
+			)
+			(node
+				(ref "R17")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "60")
+			(name "Net-(Q5-B)")
+			(class "Default")
+			(node
+				(ref "Q5")
+				(pin "1")
+				(pinfunction "B_1")
+				(pintype "input")
+			)
+			(node
+				(ref "R26")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "61")
+			(name "Net-(STI3408B1-FB)")
+			(class "Default")
+			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "STI3408B1")
+				(pin "5")
+				(pinfunction "FB_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "62")
+			(name "Net-(STI3408B1-LX)")
+			(class "Default")
+			(node
+				(ref "L3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "STI3408B1")
+				(pin "3")
+				(pinfunction "LX_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "63")
+			(name "VCC")
+			(class "Default")
+			(node
+				(ref "C10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J6")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "3")
+				(pinfunction "S_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "9")
+				(pinfunction "VCC_9")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "64")
+			(name "unconnected-(J1-SBU1-PadA8)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "A8")
+				(pinfunction "SBU1_A8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "65")
+			(name "unconnected-(J1-SBU2-PadB8)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "B8")
+				(pinfunction "SBU2_B8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "66")
+			(name "unconnected-(U1-IO5-Pad29)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "29")
+				(pinfunction "IO5_29")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "67")
+			(name "unconnected-(U1-IO12-Pad14)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "IO12_14")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "68")
+			(name "unconnected-(U1-IO13-Pad16)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "16")
+				(pinfunction "IO13_16")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "69")
+			(name "unconnected-(U1-IO15-Pad23)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "23")
+				(pinfunction "IO15_23")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "70")
+			(name "unconnected-(U1-IO16-Pad27)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "27")
+				(pinfunction "IO16_27")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "71")
+			(name "unconnected-(U1-IO17-Pad28)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "28")
+				(pinfunction "IO17_28")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "72")
+			(name "unconnected-(U1-IO35-Pad7)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "IO35_7")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "73")
+			(name "unconnected-(U1-NC-Pad32)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "32")
+				(pinfunction "NC_32")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "74")
+			(name "unconnected-(U1-SCK{slash}CLK-Pad20)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "20")
+				(pinfunction "SCK/CLK_20")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "75")
+			(name "unconnected-(U1-SCS{slash}CMD-Pad19)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "19")
+				(pinfunction "SCS/CMD_19")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "76")
+			(name "unconnected-(U1-SDI{slash}SD1-Pad22)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "22")
+				(pinfunction "SDI/SD1_22")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "77")
+			(name "unconnected-(U1-SDO{slash}SD0-Pad21)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "21")
+				(pinfunction "SDO/SD0_21")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "78")
+			(name "unconnected-(U1-SENSOR_VN-Pad5)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "SENSOR_VN_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "79")
+			(name "unconnected-(U1-SENSOR_VP-Pad4)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "SENSOR_VP_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "80")
+			(name "unconnected-(U1-SHD{slash}SD2-Pad17)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "17")
+				(pinfunction "SHD/SD2_17")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "81")
+			(name "unconnected-(U1-SWP{slash}SD3-Pad18)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "18")
+				(pinfunction "SWP/SD3_18")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "82")
+			(name "unconnected-(U2-DIO2-Pad16)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "16")
+				(pinfunction "DIO2_16")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "83")
+			(name "unconnected-(U2-DIO3-Pad11)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "11")
+				(pinfunction "DIO3_11")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "84")
+			(name "unconnected-(U2-DIO4-Pad12)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "12")
+				(pinfunction "DIO4_12")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "85")
+			(name "unconnected-(U2-DIO5-Pad7)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "7")
+				(pinfunction "DIO5_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "86")
+			(name "unconnected-(U3-NC-Pad6)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "6")
+				(pinfunction "NC_6")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "87")
+			(name "unconnected-(U6-NC-Pad7)")
+			(class "Default")
+			(node
+				(ref "U6")
+				(pin "7")
+				(pinfunction "NC_7")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "88")
+			(name "unconnected-(U6-NC-Pad8)")
+			(class "Default")
+			(node
+				(ref "U6")
+				(pin "8")
+				(pinfunction "NC_8")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "89")
+			(name "unconnected-(U6-R232-Pad15)")
+			(class "Default")
+			(node
+				(ref "U6")
+				(pin "15")
+				(pinfunction "R232_15")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "90")
+			(name "unconnected-(U6-~{CTS}-Pad9)")
+			(class "Default")
+			(node
+				(ref "U6")
+				(pin "9")
+				(pinfunction "~{CTS}_9")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "91")
+			(name "unconnected-(U6-~{DCD}-Pad12)")
+			(class "Default")
+			(node
+				(ref "U6")
+				(pin "12")
+				(pinfunction "~{DCD}_12")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "92")
+			(name "unconnected-(U6-~{DSR}-Pad10)")
+			(class "Default")
+			(node
+				(ref "U6")
+				(pin "10")
+				(pinfunction "~{DSR}_10")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "93")
+			(name "unconnected-(U6-~{RI}-Pad11)")
+			(class "Default")
+			(node
+				(ref "U6")
+				(pin "11")
+				(pinfunction "~{RI}_11")
+				(pintype "input")
+			)
+		)
+	)
+)
