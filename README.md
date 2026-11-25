@@ -144,13 +144,13 @@ Example: Vmp = 17 V → R_bottom = 200k / (17 / 1.04 − 1) ≈ 13 kΩ (use 13 k
 Keep the panel's open-circuit voltage (Voc) below the CN3791 input limit (about 28 V).
 
 ## Mppt Test Result (Bench Power Supply)
- 
-The CN3791 charger was tested with a bench power supply instead of a solar panel, and the INA219 readings were compared with the supply readings.
 
-<p align="center">
+ <p align="center">
   <img src="images/mppt1.jpg" width="45%">
   <img src="images/mppt2.jpg" width="45%">
 </p>
+
+The CN3791 charger was tested with a bench power supply instead of a solar panel, and the INA219 readings were compared with the supply readings.
 
 | Item | Value |
 |---|---|
