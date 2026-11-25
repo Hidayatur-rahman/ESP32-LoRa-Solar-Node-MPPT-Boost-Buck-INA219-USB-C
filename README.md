@@ -209,7 +209,8 @@ Set the LoRa region in Meshtastic to match your country and the 915 MHz hardware
  
 **Version 2 (in progress)**
 <p align="center">
-  <img src="images/board_v2.png" width="80%">
+  <img src="images/board_v2.png" width="70%">
+  <img src="images/board_v2_1.png" width="70%">\
 </p>
 
 - 4-layer PCB
