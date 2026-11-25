@@ -220,7 +220,7 @@ This repository currently contains version 1 (2-layer, no GPS). Version 2 files 
 
 ## License
 
-MIT — feel free to use, modify, and build upon this project.
+(KiCad schematic, PCB layout and design files): [CERN-OHL-W v2](https://ohwr.org/cern_ohl_w_v2.txt)
 
 ## Disclaimer
 
