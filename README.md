@@ -6,6 +6,24 @@ A solar-powered ESP32 + LoRa (RFM95W) node board. It charges a single-cell Li-io
 **Design tool:** KiCad 10  
 **Revision:**  rev 1, 2026-10-13
 
+## Table of Contents
+
+- [3D View](#3d-view)
+- [PCB](#pcb)
+- [Features](#features)
+- [Power Path](#power-path)
+- [Pin Mapping](#pin-mapping)
+- [Connectors](#connectors)
+- [Solder Jumpers](#solder-jumpers)
+- [MPPT Voltage Setting (CN3791)](#mppt-voltage-setting-cn3791)
+- [MPPT Test Result](#mppt-test-result-bench-power-supply)
+- [Main Components](#main-components)
+- [Usage Notes](#usage-notes)
+- [Firmware](#firmware)
+- [Roadmap](#roadmap)
+- [License](#license)
+- [Disclaimer](#disclaimer)
+
 ## 3d View
 
 <p align="center">
@@ -94,7 +112,7 @@ Each ADC input has a 10 kΩ / 15 kΩ divider, so a 5 V sensor output is scaled t
 | 5V0, 9V1, 12V2, 18V3 | Select the solar panel MPPT voltage. Close only one. |
 | JP1, JP3, JP4 | Select the supply of ADC port 1, 2 and 3: 5 V or 3.3 V |
 
-### MPPT voltage setting (CN3791)
+## MPPT voltage setting (CN3791)
 
 The CN3791 regulates the solar panel voltage so that the MPPT pin sits at about 1.04 V (typical value from the datasheet; please verify against your datasheet revision). A resistor divider sets the panel voltage:
 
@@ -124,6 +142,26 @@ R_bottom = R18 / (Vmp / 1.04 − 1)
 Example: Vmp = 17 V → R_bottom = 200k / (17 / 1.04 − 1) ≈ 13 kΩ (use 13 kΩ or the nearest standard value, 12 kΩ or 15 kΩ).
 
 Keep the panel's open-circuit voltage (Voc) below the CN3791 input limit (about 28 V).
+
+## Mppt Test Result (Bench Power Supply)
+ 
+The CN3791 charger was tested with a bench power supply instead of a solar panel, and the INA219 readings were compared with the supply readings.
+
+<p align="center">
+  <img src="images/mppt1.jpg" width="45%">
+  <img src="images/mppt2.jpg" width="45%">
+</p>
+
+| Item | Value |
+|---|---|
+| Input voltage (bench supply) | 18.6 V |
+| Input current | 0.49 A |
+| Input power | ≈ 9.1 W |
+| INA219 bus voltage (battery) | 3.89 V |
+| INA219 charge current | 2.04 A |
+| Battery charge power | ≈ 7.9 W |
+| Estimated efficiency | ≈ 87 % |
+
 
 ## Main Components
 
@@ -172,9 +210,11 @@ Set the LoRa region in Meshtastic to match your country and the 915 MHz hardware
 **Version 2 (in progress)**
 <p align="center">
   <img src="images/board_v2.png" width="80%">
+</p>
 
 - 4-layer PCB
 - GPS module added
+
 This repository currently contains version 1 (2-layer, no GPS). Version 2 files will be added when the design is ready.
 
 ## License
