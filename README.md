@@ -112,35 +112,35 @@ Each ADC input has a 10 kΩ / 15 kΩ divider, so a 5 V sensor output is scaled t
 | 5V0, 9V1, 12V2, 18V3 | Select the solar panel MPPT voltage. Close only one. |
 | JP1, JP3, JP4 | Select the supply of ADC port 1, 2 and 3: 5 V or 3.3 V |
 
-## MPPT voltage setting (CN3791)
-
-The CN3791 regulates the solar panel voltage so that the MPPT pin sits at about 1.04 V (typical value from the datasheet; please verify against your datasheet revision). A resistor divider sets the panel voltage:
-
+he CN3791 regulates the solar panel voltage so that the MPPT pin sits at about 1.04 V (typical value from the datasheet; please verify against your datasheet revision). A resistor divider sets the panel voltage:
+ 
 ```
 VCC (panel) ── R18 200k ──┬── MPPT pin
                           │
                         R_bottom (selected by jumper)
                           │
                          GND
-
+ 
 V_panel = 1.04 V × (1 + R18 / R_bottom)
 ```
-
+ 
 | Jumper | R_bottom | Regulated panel voltage | Suggested panel |
 |---|---|---|---|
-| 5V0 | R27 = 62 kΩ | ≈ 4.4 V | 5–6 V panel |
-| 9V1 | R13 = 33 kΩ | ≈ 7.3 V | 9 V panel |
-| 12V2 | R14 = 24 kΩ | ≈ 9.7 V | 12 V panel |
-| 18V3 | R15 = 15 kΩ | ≈ 14.9 V | 18 V panel |
-
+| 5V0 | R27 = 51 kΩ | ≈ 5.1 V | 5–6 V panel |
+| 9V1 | R13 = 27 kΩ | ≈ 8.7 V | 9 V panel |
+| 12V2 | R14 = 18 kΩ | ≈ 12.6 V | 12 V panel |
+| 18V3 | R15 = 12 kΩ | ≈ 18.4 V | 20 V panel |
+ 
+Use 1 % 0805 resistors. The values above are common values chosen to land close to the target panel voltage (within about 5 %), which is accurate enough because the maximum power point of a panel is fairly flat.
+ 
 To use a different panel, choose the bottom resistor from the panel's maximum power voltage (Vmp):
-
+ 
 ```
 R_bottom = R18 / (Vmp / 1.04 − 1)
 ```
-
+ 
 Example: Vmp = 17 V → R_bottom = 200k / (17 / 1.04 − 1) ≈ 13 kΩ (use 13 kΩ or the nearest standard value, 12 kΩ or 15 kΩ).
-
+ 
 Keep the panel's open-circuit voltage (Voc) below the CN3791 input limit (about 28 V).
 
 ## Mppt Test Result (Bench Power Supply)
