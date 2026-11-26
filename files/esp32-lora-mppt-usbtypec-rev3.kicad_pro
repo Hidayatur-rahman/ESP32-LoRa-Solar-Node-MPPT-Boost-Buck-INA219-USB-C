@@ -557,7 +557,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "/home/dayat/Documents/Kicad/Gerber File/esp32-lora-mppt/",
+      "plot": "gerber/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""

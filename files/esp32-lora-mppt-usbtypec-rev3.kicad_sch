@@ -13536,7 +13536,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15K"
+		(property "Value" "12K"
 			(at 86.868 198.374 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15226,7 +15226,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "24K"
+		(property "Value" "18K"
 			(at 82.296 198.374 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18928,7 +18928,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "62K"
+		(property "Value" "51K"
 			(at 71.882 198.374 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25356,7 +25356,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33K"
+		(property "Value" "27K"
 			(at 76.708 198.374 0)
 			(show_name no)
 			(do_not_autoplace no)
