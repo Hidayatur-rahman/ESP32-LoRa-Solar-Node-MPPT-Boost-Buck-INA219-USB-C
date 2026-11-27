@@ -65,8 +65,8 @@ A solar-powered ESP32 + LoRa (RFM95W) node board. It charges a single-cell Li-io
 ```
 Solar panel ──► Q1 (P-MOSFET) ──► CN3791 MPPT ──► INA219 shunt ──► Battery (4.2 V)
                                                                        │
-                                  ESP32 / LoRa / sensors ◄── 3.3 V ◄── 5 V (MT3608 boost) ◄─┘
-                                                              STI3408B buck
+ESP32/LoRa / sensors ◄── 3.3 V(STI3408B buck) ◄── 5 V (MT3608 boost) ◄─┘
+                                                              
 ```
 
 > ⚠️ **BATTERY WARNING**  
